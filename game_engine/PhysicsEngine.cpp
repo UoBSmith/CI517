@@ -86,7 +86,7 @@ void PhysicsEngine::update(float deltaTime)
         if (body->position.y > 580 - boxSize) { 
             body->position.y = 580 - boxSize;
             body->velocity.y = 0;
-            //printf("Player collided with floor\n");
+            printf("\nPlayer collided with roof\nAronSmith-CI517-2023-24");
         }
         // collision with top
         if (body->position.y < 0) { 
