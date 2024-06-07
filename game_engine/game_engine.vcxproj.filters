@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{15459b69-fd15-4301-8685-187754bd1399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Utils">
+      <UniqueIdentifier>{b02c6c35-b3f5-4c47-b2fe-7e26f4fb8a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Subsystems">
+      <UniqueIdentifier>{c63b68c2-70d7-4e55-b6d3-1ef4894e2fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{e82cb947-81c1-473d-9435-75dfd6abe2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Subsystems">
+      <UniqueIdentifier>{8b6f03be-24e3-4dce-a340-a70956b36695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\MyCustomEngine">
+      <UniqueIdentifier>{72bb3a7c-f49d-46c8-82b6-6aba6b051bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\MyCustomEngine">
+      <UniqueIdentifier>{53e67a37-b254-4a35-ae91-854416afcb40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XCube2d.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractGame.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventEngine.cpp">
+      <Filter>Source Files\Engine\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCustomEngine.cpp">
+      <Filter>Source Files\Engine\MyCustomEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPhysicsSubsystem.cpp">
+      <Filter>Source Files\Engine\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsEngine.cpp">
+      <Filter>Source Files\Engine\Subsystems</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsEngine.cpp">
+      <Filter>Source Files\Engine\MyCustomEngine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="XCube2d.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractGame.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineCommon.h">
+      <Filter>Header Files\Engine\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMath.h">
+      <Filter>Header Files\Engine\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="EventEngine.h">
+      <Filter>Header Files\Engine\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCustomEngine.h">
+      <Filter>Header Files\Engine\MyCustomEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPhysicsSubsystem.h">
+      <Filter>Header Files\Engine\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsEngine.h">
+      <Filter>Header Files\Engine\Subsystems</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEngine.h">
+      <Filter>Header Files\Engine\MyCustomEngine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
